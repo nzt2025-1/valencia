@@ -51,5 +51,11 @@ iframe {
 }
 
 .roterpanda {
-    text-align:center;
+    text-align:left;
+    color: black;
+}
+
+.baeren {
+    display: flex;
+    flex-direction: column;
 }
