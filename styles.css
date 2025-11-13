@@ -1,18 +1,23 @@
 body {
-    background-color: black;
+    background-color: rgb(135, 248, 152);
     font-family: Helvetica Now Text;
-    color: yellow;
+    color: rgb(8, 8, 8);
 }
 
 h1 {
+    text-align: center; 
+    color: rgb(2, 2, 2);
+}
+
+h3 {
     text-align: center;
-    color: aqua;
+    color: rgb(2, 2, 2);
 }
 
 p {
     font-size: 18px;
     text-align: center;
-    color: white;
+    color: rgb(4, 4, 4);
 }
 
 .meineKlasse {
@@ -27,5 +32,10 @@ img {
 .video {
     width: 400px;
     height: 220px
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
 }
 
